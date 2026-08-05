@@ -9,10 +9,10 @@ temaEscuro(temasalvo === 'escuro');
 function temaEscuro(tipo) {
   if (tipo == true) {
     body.classList.add('escuro');
-    // botao.innerHTML = '<i class="material-icons"></i>';
+    botao.innerHTML = `<i class='material-icons'>bedtime</i>`
   } else {
     body.classList.remove('escuro');
-    // botao.innerHTML = '<i class="material-icons"></i>';
+    botao.innerHTML = `<i class='material-icons'>sunny</i>`
   }
 }
 
